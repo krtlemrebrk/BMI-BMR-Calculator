@@ -20,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="giU-BS-hM9">
-                                <rect key="frame" x="0.0" y="119" width="414" height="718"/>
+                                <rect key="frame" x="0.0" y="119" width="414" height="743"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLi-D7-HFZ" userLabel="HeaderView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="215"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALCULATE YOUR BMI &amp; BMR" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmW-8I-PmL">
                                                 <rect key="frame" x="25" y="25" width="364" height="95.5"/>
@@ -39,7 +39,7 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Z8X-7F-fYs" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="210" width="414" height="508"/>
+                                        <rect key="frame" x="0.0" y="235" width="414" height="508"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzC-w2-iXo" userLabel="GenderView">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -244,7 +244,7 @@
                             <constraint firstItem="798-R5-Fbt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="c9n-bh-oji"/>
                             <constraint firstItem="giU-BS-hM9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="fvS-qi-hot"/>
                             <constraint firstItem="giU-BS-hM9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="g0S-yY-h8d"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="giU-BS-hM9" secondAttribute="bottom" constant="25" id="qlm-5k-nGl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="giU-BS-hM9" secondAttribute="bottom" id="qlm-5k-nGl"/>
                             <constraint firstItem="798-R5-Fbt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="sX9-4D-0Pd"/>
                             <constraint firstItem="798-R5-Fbt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="w2T-wW-KPK"/>
                         </constraints>
@@ -276,7 +276,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="i6f-WL-S4Y">
-                                <rect key="frame" x="0.0" y="119" width="414" height="718"/>
+                                <rect key="frame" x="0.0" y="119" width="414" height="743"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zKy-Cm-5wY" userLabel="BMRView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="175"/>
@@ -357,10 +357,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYR-gX-suX" userLabel="ButtonView">
-                                        <rect key="frame" x="0.0" y="555" width="414" height="163"/>
+                                        <rect key="frame" x="0.0" y="555" width="414" height="188"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzJ-RB-4eR">
-                                                <rect key="frame" x="25" y="90" width="364" height="48"/>
+                                                <rect key="frame" x="25" y="115" width="364" height="48"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Recalculate">
@@ -405,7 +405,7 @@
                             <constraint firstAttribute="bottom" secondItem="Nab-jM-5UW" secondAttribute="bottom" id="Cq7-F1-FB6"/>
                             <constraint firstItem="Nab-jM-5UW" firstAttribute="leading" secondItem="PJn-HP-2u8" secondAttribute="leading" id="IJr-fx-joU"/>
                             <constraint firstItem="zxy-yq-s5r" firstAttribute="trailing" secondItem="i6f-WL-S4Y" secondAttribute="trailing" id="JHD-pI-ExK"/>
-                            <constraint firstItem="zxy-yq-s5r" firstAttribute="bottom" secondItem="i6f-WL-S4Y" secondAttribute="bottom" constant="25" id="KRW-9k-EZB"/>
+                            <constraint firstItem="zxy-yq-s5r" firstAttribute="bottom" secondItem="i6f-WL-S4Y" secondAttribute="bottom" id="KRW-9k-EZB"/>
                             <constraint firstItem="i6f-WL-S4Y" firstAttribute="leading" secondItem="PJn-HP-2u8" secondAttribute="leading" id="XEr-jx-BPi"/>
                             <constraint firstItem="Nab-jM-5UW" firstAttribute="trailing" secondItem="PJn-HP-2u8" secondAttribute="trailing" id="cmS-cg-gHs"/>
                             <constraint firstItem="i6f-WL-S4Y" firstAttribute="top" secondItem="zxy-yq-s5r" secondAttribute="top" constant="75" id="omj-NW-vuO"/>
